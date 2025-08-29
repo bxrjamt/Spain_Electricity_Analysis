@@ -5,6 +5,43 @@ Este proyecto realiza un **análisis exploratorio de los datos de la CNMC** sobr
 El propósito de este análisis es **identificar tendencias, comparar regiones y realizar predicciones** que puedan **respaldar la planificación de infraestructuras y la toma de decisiones estratégicas en energías renovables**.
 
 --------
+## Objetivos del análisis
+
+### Evolución temporal de la energía generada y potencia instalada
+- ¿Cuál ha sido la evolución anual de energía vendida a nivel nacional?  
+- ¿Cómo ha cambiado la potencia instalada en cada año y por tecnología?  
+- ¿Qué años presentan incrementos o caídas abruptas en la generación?  
+- ¿Existen patrones de crecimiento sostenido para alguna tecnología específica?  
+
+### Comparación del desempeño de las comunidades autónomas
+- ¿Qué comunidades contribuyen más a la energía total vendida?  
+- ¿Qué comunidades muestran menor crecimiento relativo en generación?  
+- ¿Cómo se distribuye la potencia instalada entre las distintas regiones?  
+- ¿Qué comunidades destacan por su capacidad instalada frente a energía realmente vendida?  
+
+### Desglose de la generación por tecnología
+- ¿Qué porcentaje del mix energético representa cada fuente (eólica, solar, biomasa, residuos, cogeneración, hidráulica)?  
+- ¿Qué tecnologías han experimentado mayor crecimiento en la última década?  
+- ¿Qué fuentes han perdido participación en el mix energético?  
+- ¿Existen diferencias en la adopción de tecnologías entre comunidades autónomas?  
+
+### Evaluación de eficiencia y rendimiento
+- ¿Qué regiones convierten mejor la potencia instalada en energía vendida?  
+- ¿Qué tecnologías muestran mayor rendimiento promedio?  
+- ¿Existen comunidades o tecnologías con infrautilización significativa?  
+- ¿Se observa un incremento de eficiencia con el tiempo en alguna fuente específica?  
+
+### Detección de patrones y correlaciones
+- ¿Se observan relaciones entre la adopción de distintas tecnologías en la misma comunidad?  
+- ¿Qué combinaciones de tecnologías se repiten en regiones eficientes?  
+- ¿Existen tendencias comunes entre comunidades con comportamientos similares en energía generada?  
+- ¿Qué variables podrían estar correlacionadas con incrementos o caídas de generación?  
+
+### Proyecciones futuras (modelos predictivos)
+- ¿Qué comunidades tienen mayor potencial de crecimiento de energía renovable?  
+- ¿Qué tecnologías muestran tendencia de expansión sostenida para los próximos años?  
+- ¿Qué variables resultan más relevantes para predecir energía futura (potencia instalada, año, tipo de fuente)?  
+- ¿Qué precisión alcanzan los modelos predictivos al estimar energía futura por comunidad y tecnología?  
 
 ## Objetivos del análisis
 
@@ -130,5 +167,6 @@ El dataset proviene de **CNMC Data** e incluye registros anuales de **energía v
 - **Jupyter Notebook + Python (pandas, matplotlib, seaborn,scikit-learn)**: Análisis y visualizaciones interactivas.  
 - **SQL (SQLite)**: Consultas para segmentar por comunidad, tecnología y año.  
 - **Power BI**: Creación de dashboards interactivos para KPIs, tendencias y comparaciones por región y tecnología.
+
 
 
