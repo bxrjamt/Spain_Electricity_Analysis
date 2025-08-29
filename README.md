@@ -54,3 +54,21 @@ Spain_Electricity_Analysis
     ├── regional_comparison.png
     └── technology_breakdown.png
 ```
+## 🗂 Dataset
+
+El dataset proviene de **CNMC Data** e incluye registros anuales de **energía vendida (GWh)** y **potencia instalada (MW)** por **comunidad autónoma** y **tipo de tecnología**.
+
+### Columnas principales
+
+- **Año**: Año del registro.  
+- **CCAA**: Comunidad autónoma en España.  
+- **Tecnología**: Tipo de energía (**eólica, solar fotovoltaica, biomasa, residuos, cogeneración, hidráulica**, etc.).  
+- **Energía vendida (GWh)**: Energía eléctrica vendida.  
+- **Potencia instalada (MW)**: Potencia instalada.
+
+## 🛠 Herramientas utilizadas
+
+- **Jupyter Notebook + Python (pandas, matplotlib, seaborn,scikit-learn)**: Análisis y visualizaciones interactivas.  
+- **SQL (SQLite)**: Consultas para segmentar por comunidad, tecnología y año.  
+- **Power BI**: Creación de dashboards interactivos para KPIs, tendencias y comparaciones por región y tecnología.
+
