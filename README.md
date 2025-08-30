@@ -14,10 +14,10 @@ El análisis se centra en los siguientes objetivos que nos ayudarán a entender 
 Analizar cómo han cambiado año a año los valores de **energía vendida** y **potencia instalada** a nivel nacional, identificando **tendencias y picos significativos**.
 
 🌍 **Comparación de eficiencia energética entre comunidades autónomas**  
-Relacionar la **energía vendida** con la **potencia instalada** para identificar qué **regiones y tecnologías aprovechan mejor sus recursos**.
+Comparar la **energía vendida** con la **potencia instalada** para identificar qué **regiones y tecnologías aprovechan mejor sus recursos**.
 
-📊 **Distribución de la energía vendida por tecnología y región**  
-Estudiar la contribución de cada fuente de energía (**eólica, solar, biomasa, residuos, cogeneración, hidráulica…**) sobre la **energía vendida total**, así como su evolución a lo largo del tiempo.
+📊 **Distribución por fuentes de energía**  
+Estudiar la contribución de cada fuente de energía (**eólica, solar, biomasa, residuos, cogeneración, hidráulica…**) sobre la **energía total vendida**.
 
 🔍 **Patrones y correlaciones en la generación de energía**  
 Explorar posibles **relaciones entre regiones, tecnologías y periodos**, detectando **patrones recurrentes y tendencias comunes** entre comunidades.
@@ -29,29 +29,51 @@ Estimar tendencias futuras en **energía vendida** y **potencia instalada** por 
 
 ## Objetivos del análisis
 
-### Evolución temporal de la energía generada y potencia instalada
-**Preguntas clave:**  
+
 - ¿Cómo ha evolucionado anualmente la potencia instalada en comparación con la energía vendida?
 - ¿Qué años presentan incrementos o caídas significativas en la generación?
 - ¿Cuál ha sido la tendencia anual de la energía vendida a nivel nacional para cada tipo de fuente (renovables, cogeneración, residuos)?
-- ¿Cómo ha cambiado la potencia instalada en cada año y por tecnología? ¿Y la energía vendida?
+- ¿Cómo ha cambiado la potencia instalada en cada año por tecnología? ¿Y la energía vendida?
 - ¿Existen patrones de crecimiento sostenido para alguna tecnología específica?
 
-### Comparación del desempeño de las comunidades autónomas
-- ¿Qué comunidades contribuyen más a la energía total vendida?  
-- ¿Qué comunidades muestran menor crecimiento relativo en generación?  
-- ¿Cómo se distribuye la potencia instalada entre las distintas regiones?  
-- ¿Qué comunidades destacan por su capacidad instalada frente a energía realmente vendida?  
-- ¿Qué regiones convierten mejor la potencia instalada en energía vendida?  
-- ¿Qué tecnologías muestran mayor rendimiento promedio?  
-- ¿Existen comunidades o tecnologías con infrautilización significativa?  
-- ¿Se observa un incremento de eficiencia con el tiempo en alguna fuente específica?
   
+### Comparación del desempeño de las comunidades autónomas
+1. ¿Qué comunidades tienen la mayor energía vendida a nivel nacional en cada año?  
+2. ¿Qué fuente de energía vendió más electricidad en España cada año de la última década?  
+3. ¿Qué comunidades mostraron menor crecimiento relativo en energía vendida durante los últimos 5 años?  
+4. ¿Qué comunidades aumentaron más rápidamente su energía vendida a partir de renovables?  
+5. ¿Qué tecnologías muestran mayor variación en la energía vendida entre comunidades autónomas?  
+6. ¿Qué comunidades tienen la mayor potencia instalada por cada tipo de fuente energética en un año determinado?  
+7. ¿Qué comunidades tienen más potencia instalada en comparación con la energía vendida?  
+8. ¿Qué comunidades convierten mejor la potencia instalada en energía vendida?  
+9. ¿Qué tecnologías muestran mayor rendimiento promedio según energía vendida y potencia instalada?  
+10. ¿Existen comunidades o tecnologías con potencia instalada que se utiliza poco en comparación con la energía vendida?  
+11. ¿Qué comunidad vendió más energía de una tecnología específica en un año determinado?  
+12. ¿Qué fuentes de energía están presentes en todas las comunidades autónomas y cuáles solo en algunas?  
+13. ¿Qué comunidades tienen una proporción significativa de cogeneración o residuos frente a energías renovables?  
+14. ¿Cuáles son las tres principales tecnologías por energía vendida en cada comunidad?  
+
+
+### 3. Distribución por fuentes de energía  
+**Objetivo:** Identificar qué tipos de fuentes (renovables, cogeneración, residuos) dominan la producción energética.  
+
+**Preguntas clave:**  
+- 🌍 ¿Qué porcentaje de la energía vendida proviene de renovables frente a cogeneración y residuos?  
+- ⏳ ¿Cómo ha cambiado esta distribución a lo largo del tiempo?  
+- 📊 ¿Qué fuentes muestran mayor crecimiento y cuáles están estancadas o en retroceso?  
+- 🗺️ ¿Existen diferencias en la diversificación de fuentes entre comunidades autónomas?
+   
 ### Desglose de la generación por tecnología
 - ¿Qué porcentaje del mix energético representa cada fuente (eólica, solar, biomasa, residuos, cogeneración, hidráulica)?  
 - ¿Qué tecnologías han experimentado mayor crecimiento en la última década?  
 - ¿Qué fuentes han perdido participación en el mix energético?  
-- ¿Existen diferencias en la adopción de tecnologías entre comunidades autónomas?  
+- ¿Existen diferencias en la adopción de tecnologías entre comunidades autónomas?
+- ¿Cómo se distribuye la potencia instalada entre las distintas regiones?  
+- ¿Qué comunidades destacan por mayor potencia instalada de renovables?  
+- ¿Qué regiones generan más energía en relación con su capacidad instalada?  
+- ¿Existen comunidades que dependen más de cogeneración o residuos en lugar de renovables?  
+- ¿Cuáles son las regiones con mayor crecimiento relativo en los últimos años?
+- 
 
 ### Detección de patrones y correlaciones
 - ¿Se observan relaciones entre la adopción de distintas tecnologías en la misma comunidad?  
@@ -67,36 +89,38 @@ Estimar tendencias futuras en **energía vendida** y **potencia instalada** por 
 
 ## 📊 Objetivos del análisis y preguntas clave
 
-### 1. Evolución temporal de la energía  
-**Objetivo:** Analizar cómo ha variado la energía vendida y la potencia instalada a lo largo de los años.  
+### Comparación del desempeño de las comunidades autónomas
+**Objetivo:** Analizar cómo se distribuye la energía vendida y la potencia instalada entre las distintas comunidades autónomas y tecnologías.
 
-**Preguntas clave:**  
-- 📈 ¿Cuál ha sido la tendencia general de la energía renovable vendida en España en la última década?  
-- 📉 ¿Existen años con picos o caídas significativas? ¿A qué se deben?  
-- ⚡ ¿Cómo ha evolucionado la potencia instalada en comparación con la energía vendida?  
-- 🌱 ¿Se observa un crecimiento sostenido en la penetración de energías renovables?  
+#### A. Comparación entre comunidades  
+1. ¿Qué comunidades destacan por mayor potencia instalada en energía eólica?  
+2. ¿Qué comunidades generan más energía vendida a partir de energía solar en relación con su potencia instalada?  
+3. ¿Qué comunidades dependen más de cogeneración o residuos frente a otras tecnologías?  
+4. ¿Qué comunidades contribuyen más al total nacional de energía vendida de renovables?  
+5. ¿Qué comunidades muestran menor crecimiento relativo en energía vendida de hidráulica durante los últimos años?  
 
----
+#### B. Crecimiento y tendencias  
+6. ¿Qué comunidades han aumentado más rápidamente su energía vendida de biomasa en los últimos años?  
+7. ¿Qué tecnologías han mostrado mayor crecimiento en energía vendida dentro de las comunidades líderes?  
+8. ¿Qué tecnologías han perdido participación en el mix energético en algunas comunidades?  
+9. ¿Qué tecnologías muestran mayor variación en energía vendida entre comunidades autónomas?  
 
-### 2. Comparación entre comunidades autónomas  
-**Objetivo:** Evaluar las diferencias regionales en cuanto a capacidad instalada y energía vendida.  
+#### C. Rendimiento y eficiencia  
+10. ¿Qué comunidades convierten mejor la potencia instalada en energía vendida de solar y eólica?  
+11. ¿Existen comunidades con potencia instalada subutilizada en comparación con la energía vendida de biomasa y residuos?  
+12. ¿Qué tecnologías tienen mayor rendimiento promedio considerando energía vendida vs potencia instalada en distintas regiones?  
+13. ¿Qué tecnologías tienen una relación más equilibrada entre potencia instalada y energía vendida según la comunidad?  
+14. ¿Existen tecnologías con potencia instalada subutilizada en algunas comunidades?  
 
-**Preguntas clave:**  
-- 🏙️ ¿Qué comunidades destacan por mayor potencia instalada de renovables?  
-- ⚖️ ¿Qué regiones generan más energía en relación con su capacidad instalada?  
-- 🔄 ¿Existen comunidades que dependen más de cogeneración o residuos en lugar de renovables?  
-- 🚀 ¿Cuáles son las regiones con mayor crecimiento relativo en los últimos años?  
+#### D. Participación de tecnologías  
+15. ¿Qué porcentaje del total de energía vendida corresponde a cada tecnología en cada comunidad?  
+16. ¿Qué tecnologías están presentes en todas las comunidades autónomas y cuáles solo en algunas?  
+17. ¿Qué tecnologías lideran la energía vendida en comunidades específicas?  
+18. ¿Qué comunidad vendió más energía de una tecnología específica en un año determinado?  
+19. ¿Cuáles son las tres principales tecnologías por energía vendida en cada comunidad?  
+20. ¿Cuáles son las tres tecnologías con mayor contribución a la energía vendida en España?
 
----
 
-### 3. Distribución por fuentes de energía  
-**Objetivo:** Identificar qué tipos de fuentes (renovables, cogeneración, residuos) dominan la producción energética.  
-
-**Preguntas clave:**  
-- 🌍 ¿Qué porcentaje de la energía vendida proviene de renovables frente a cogeneración y residuos?  
-- ⏳ ¿Cómo ha cambiado esta distribución a lo largo del tiempo?  
-- 📊 ¿Qué fuentes muestran mayor crecimiento y cuáles están estancadas o en retroceso?  
-- 🗺️ ¿Existen diferencias en la diversificación de fuentes entre comunidades autónomas?  
 
 ---
 
