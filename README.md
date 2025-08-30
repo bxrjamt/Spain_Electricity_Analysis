@@ -1,8 +1,7 @@
 # ⚡ Análisis de Energía Eléctrica en España
 
 ## Descripción general
-Este proyecto realiza un **análisis exploratorio de los datos de la CNMC** sobre la evolución anual de la energía eléctrica generada a partir de **fuentes renovables, cogeneración y residuos**, así como la **energía vendida y la potencia instalada por comunidad autónoma**.  
-El propósito de este análisis es **identificar tendencias, comparar regiones y realizar predicciones** que puedan **respaldar la planificación de infraestructuras y la toma de decisiones estratégicas en energías renovables**.
+Este proyecto realiza un **análisis exploratorio de los datos de la CNMC** sobre la evolución anual de la energía eléctrica generada a partir de **fuentes renovables, cogeneración y residuos**, así como la **energía vendida y la potencia instalada por comunidad autónoma**. El propósito de este análisis es **identificar tendencias, comparar regiones y realizar predicciones** que puedan **respaldar la planificación de infraestructuras y la toma de decisiones estratégicas en energías renovables**.
 
 --------
 
@@ -188,6 +187,7 @@ El dataset proviene de **CNMC Data** e incluye registros anuales de **energía v
 - **Jupyter Notebook + Python (pandas, matplotlib, seaborn,scikit-learn)**: Análisis y visualizaciones interactivas.  
 - **SQL (SQLite)**: Consultas para segmentar por comunidad, tecnología y año.  
 - **Power BI**: Creación de dashboards interactivos para KPIs, tendencias y comparaciones por región y tecnología.
+
 
 
 
