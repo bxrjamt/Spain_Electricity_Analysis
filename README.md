@@ -9,23 +9,22 @@ Este proyecto realiza un **análisis exploratorio de los datos de la CNMC** sobr
 
 El análisis se centra en los siguientes objetivos que nos ayudarán a entender cómo se genera, distribuye y utiliza la energía en España:
 
-- 📈 **Tendencias temporales de la energía vendida y la potencia instalada**    
-   Analizar la evolución anual de la **energía vendida** y la **potencia instalada**, identificando **picos y variaciones significativas** a nivel nacional.
+- 📈 **Tendencias temporales de la energía vendida y la potencia instalada**  
+Analizar la evolución anual de la **energía vendida** y la **potencia instalada**, identificando **picos y variaciones significativas** a nivel nacional.
 
-- 📊 **Distribución por fuentes de energía**    
-   Evaluar la contribución de cada fuente (renovables, cogeneración, residuos) sobre la **energía total vendida**, tanto a nivel nacional como por comunidad autónoma.
+- 📊 **Distribución por fuentes de energía**  
+Evaluar la contribución de cada fuente (**renovables, cogeneración, residuos**) sobre la **energía total vendida**, tanto a nivel nacional como por comunidad autónoma.
 
-- 🔍 **Detección de patrones y correlaciones**    
-   Explorar posibles relaciones entre **energía vendida** y **potencia instalada**, según comunidad y tecnología, usando análisis de correlación y visualizaciones comparativas.
+- 🔍 **Detección de patrones y correlaciones**  
+Explorar posibles relaciones entre **energía vendida** y **potencia instalada**, según **comunidad** y **tecnología**, usando análisis de correlación y visualizaciones comparativas.
 
-- 🌍 **Desempeño energético por comunidades autónomas y tecnologías**    
-   Analizar la **distribución, crecimiento y eficiencia** de la energía vendida y la potencia instalada por comunidad y tecnología.
+- 🌍 **Desempeño energético por comunidades autónomas y tecnologías**  
+Analizar la **distribución, crecimiento y eficiencia** de la energía vendida y la potencia instalada por **comunidad** y **tecnología**.
 
-- 🔮 **Proyecciones futuras**    
-   Estimar escenarios futuros de **energía vendida** y **potencia instalada** por comunidad y tecnología, destacando **regiones y fuentes con mayor potencial de crecimiento**.
-   
+- 🔮 **Proyecciones futuras**  
+Estimar escenarios futuros de **energía vendida** y **potencia instalada** por **comunidad** y **tecnología**, destacando **regiones y fuentes con mayor potencial de crecimiento**.
+
 --------
-
 
 - 📈 **Tendencias temporales de la energía vendida y la potencia instalada**  
 Analizar cómo han cambiado año a año los valores de **energía vendida** y **potencia instalada** a nivel nacional, identificando **tendencias y picos significativos**.
@@ -35,18 +34,21 @@ Analizar cómo han cambiado año a año los valores de **energía vendida** y **
 - ¿Cuál ha sido la tendencia anual de la energía vendida a nivel nacional para cada tipo de fuente (renovables, cogeneración, residuos)?
 - ¿Cómo ha cambiado la potencia instalada en cada año por tecnología? ¿Y la energía vendida?
 - ¿Existen patrones de crecimiento sostenido para alguna tecnología específica?
-
-- 📊 **Distribución por fuentes de energía**  
+  
+- 📊 **Distribución por fuentes y tecnologías**
 Estudiar la contribución de cada fuente de energía sobre la **energía total vendida**, así como su evolución temporal a lo largo de los años.
 
-- ¿Qué porcentaje del total de energía vendida representa cada fuente (renovables, cogeneración, residuos) en cada año?  
-- ¿Qué fuente generó más energía en un año determinado a nivel nacional y regional?  
-- ¿Qué fuentes muestran mayor crecimiento o disminución a lo largo del tiempo?  
-- ¿Existen diferencias significativas entre comunidades autónomas en la participación de cada fuente?  
-- ¿Qué fuentes tienen mayor estabilidad o variabilidad interanual en la generación?  
-- ¿Cuáles son las tres fuentes que más contribuyen a la energía vendida en España y en cada comunidad?  
-- ¿Qué fuentes lideran la generación de energía en comunidades específicas?  
+#### Por tipo de fuente
+- ¿Qué porcentaje del total de energía vendida representa cada tipo de fuente (**renovables, cogeneración, residuos**) por año?  
+- ¿Qué tipo de fuente muestra mayor crecimiento o disminución en la última década?  
+- ¿En qué años un tipo de fuente representó menos del 50% de la energía total vendida?  
+- ¿Cuál es la contribución acumulada de cada tipo de fuente al total de energía vendida en el año 2025?
 
+#### Por tecnología específica
+- ¿Qué tecnologías han mostrado estabilidad en su contribución a la energía vendida en los últimos diez años?
+- ¿Qué tecnologías tienen predominio en comunidades específicas?   
+- ¿Qué tecnologías están presentes en todas las comunidades cada año?  
+- ¿Qué combinación de tecnologías representa más del 75% de la energía total vendida a nivel nacional?
 
 - 🔍 **Detección de patrones y correlaciones**
 Identificar posibles relaciones entre energía vendida y potencia instalada según comunidad y tecnología.
@@ -93,15 +95,6 @@ Analizar distribución, crecimiento y eficiencia de la energía vendida y potenc
 
 
 ---
-
-### 4. Modelos de predicción con *scikit-learn*  
-**Objetivo:** Construir modelos predictivos para estimar la energía futura a partir de los datos históricos.  
-
-**Preguntas clave:**  
-- 🔮 ¿Podemos predecir la energía vendida de cada comunidad autónoma para los próximos años?  
-- 🧩 ¿Qué variables (potencia instalada, año, tipo de fuente) resultan más relevantes en la predicción?  
-- 📐 ¿Qué precisión alcanzan modelos como *Linear Regression* o *Random Forest* al predecir la evolución energética?  
-- 🌟 ¿Qué escenarios de crecimiento podemos anticipar para las renovables en España?  
 
 ---
 
@@ -158,6 +151,7 @@ El dataset proviene de **CNMC Data** e incluye registros anuales de **energía v
 - **Jupyter Notebook + Python (pandas, matplotlib, seaborn,scikit-learn)**: Análisis y visualizaciones interactivas.  
 - **SQL (SQLite)**: Consultas para segmentar por comunidad, tecnología y año.  
 - **Power BI**: Creación de dashboards interactivos para KPIs, tendencias y comparaciones por región y tecnología.
+
 
 
 
