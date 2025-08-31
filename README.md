@@ -9,19 +9,19 @@ Este proyecto realiza un **análisis exploratorio de los datos de la CNMC** sobr
 
 El análisis se centra en los siguientes objetivos que nos ayudarán a entender cómo se genera, distribuye y utiliza la energía en España:
 
-1. 📈 **Tendencias temporales de la energía vendida y la potencia instalada**    
+- 📈 **Tendencias temporales de la energía vendida y la potencia instalada**    
    Analizar la evolución anual de la **energía vendida** y la **potencia instalada**, identificando **picos y variaciones significativas** a nivel nacional.
 
-2. 📊 **Distribución por fuentes de energía**    
+- 📊 **Distribución por fuentes de energía**    
    Evaluar la contribución de cada fuente (renovables, cogeneración, residuos) sobre la **energía total vendida**, tanto a nivel nacional como por comunidad autónoma.
 
-3. 🔍 **Detección de patrones y correlaciones**    
+- 🔍 **Detección de patrones y correlaciones**    
    Explorar posibles relaciones entre **energía vendida** y **potencia instalada**, según comunidad y tecnología, usando análisis de correlación y visualizaciones comparativas.
 
-4. 🌍 **Desempeño energético por comunidades autónomas y tecnologías**    
+- 🌍 **Desempeño energético por comunidades autónomas y tecnologías**    
    Analizar la **distribución, crecimiento y eficiencia** de la energía vendida y la potencia instalada por comunidad y tecnología.
 
-5. 🔮 **Proyecciones futuras**    
+- 🔮 **Proyecciones futuras**    
    Estimar escenarios futuros de **energía vendida** y **potencia instalada** por comunidad y tecnología, destacando **regiones y fuentes con mayor potencial de crecimiento**.
    
 --------
@@ -158,6 +158,7 @@ El dataset proviene de **CNMC Data** e incluye registros anuales de **energía v
 - **Jupyter Notebook + Python (pandas, matplotlib, seaborn,scikit-learn)**: Análisis y visualizaciones interactivas.  
 - **SQL (SQLite)**: Consultas para segmentar por comunidad, tecnología y año.  
 - **Power BI**: Creación de dashboards interactivos para KPIs, tendencias y comparaciones por región y tecnología.
+
 
 
 
