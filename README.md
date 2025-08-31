@@ -12,8 +12,8 @@ El análisis se centra en los siguientes objetivos que nos ayudarán a entender 
 - 📈 **Tendencias temporales de la energía vendida y la potencia instalada**  
   Analizar cómo han cambiado año a año los valores de energía vendida y potencia instalada a nivel nacional, identificando **tendencias y picos significativos**.
 
-- 📊 **Distribución por tipos de fuente (renovables, cogeneración, residuos) y tecnologías específicas**  
-  Evaluar cómo contribuye cada tipo de fuente y tecnología a la **energía total vendida** a lo largo de los años.
+- 📊 **Distribución por tecnologias de generación**  
+  Analizar la contribución de cada tecnología a la **energía total vendida** en cada año.
 
 - 🌍 **Desempeño energético por comunidades autónomas y tecnologías**  
   Analizar la **distribución, el crecimiento y la eficiencia** de la energía vendida y la potencia instalada por comunidad y tecnología.
@@ -35,20 +35,20 @@ El análisis se centra en los siguientes objetivos que nos ayudarán a entender 
 Analizar cómo han cambiado año a año los valores de energía vendida y potencia instalada a nivel nacional, identificando tendencias y picos significativos.
 
 - ¿Cómo ha evolucionado anualmente la potencia instalada en comparación con la energía vendida?
-- ¿Cuál ha sido la tendencia anual de la energía vendida para cada tipo de fuente (**renovables, cogeneración, residuos**)?
-- ¿Qué años registraron los picos más altos o las caídas más significativas en energía vendida para cada tipo de fuente?
-- ¿Qué tipo de fuente muestra mayor crecimiento o disminución en energía vendida en la última década?
+- ¿Cuál ha sido la tendencia anual de la energía vendida para cada tecnología?
+- ¿Qué años registraron los picos más altos o las caídas más significativas en energía vendida para las fuentes de energía renovables?
+- ¿Qué fuente de energía renovable muestra mayor crecimiento o disminución en energía vendida en la última década?
 - ¿Qué tecnologías muestran una estabilidad en potencia instalada en la última década?
 - ¿Qué comunidades autónomas han mostrado un crecimiento más constante en energía vendida en el último año?
 
 --------
 
-## 📊 Distribución por tipos de fuente (renovables, cogeneración, residuos) y tecnologías específicas
-Analizar cómo contribuye cada tipo de fuente y tecnología a la **energía total vendida** a lo largo de los años.
+## 📊 Distribución por tecnologías de generación
+  Analizar la contribución de cada tecnología a la **energía total vendida** en cada año.
 
-- ¿Qué porcentaje de la energía vendida representa cada tipo de fuente por año?  
-- ¿En qué años un tipo de fuente representó menos del 50% de la energía total vendida?  
-- ¿Cuál ha sido la contribución acumulada de cada tipo de fuente al total de energía vendida?  
+- ¿Qué porcentaje de la energía vendida representa cada tecnología por año?  
+- ¿En qué años las fuentes de energía renovables representaron menos del 50% de la energía total vendida?  
+- ¿Cuál ha sido la contribución acumulada de cada tecnología al total de energía vendida?  
 - ¿Qué tecnologías han mantenido estable su aporte a la energía vendida en la última década?  
 - ¿Qué tecnologías concentran la mayor parte de la energía vendida en comunidades específicas?  
 - ¿Qué tecnologías representan más del 75% de la energía total vendida en un año determinado?
@@ -137,6 +137,7 @@ El dataset proviene de **CNMC Data** e incluye registros anuales de **energía v
 - **Jupyter Notebook + Python (pandas, matplotlib, seaborn,scikit-learn)**: Análisis y visualizaciones interactivas.  
 - **SQL (SQLite)**: Consultas para segmentar por comunidad, tecnología y año.  
 - **Power BI**: Creación de dashboards interactivos para KPIs, tendencias y comparaciones por región y tecnología.
+
 
 
 
