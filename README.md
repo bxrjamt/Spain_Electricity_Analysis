@@ -10,13 +10,13 @@ Este proyecto realiza un **análisis exploratorio de los datos de la CNMC** sobr
 El análisis se centra en los siguientes objetivos que nos ayudarán a entender cómo se genera, distribuye y utiliza la energía en España:
 
 - 📈 **Tendencias temporales de la energía vendida y la potencia instalada**  
-  Analizar cómo han cambiado año a año los valores de energía vendida y potencia instalada a nivel nacional, identificando tendencias y picos significativos.
+  Analizar cómo han cambiado año a año los valores de energía vendida y potencia instalada a nivel nacional, identificando **tendencias y picos significativos**.
 
-- 📊 **Distribución por tipos de fuente (renovables, cogeneración, residuos) y tecnologías específicas**
-  Evaluar cómo contribuye cada tipo de fuente y tecnología a la energía total vendida a lo largo de los años.
+- 📊 **Distribución por tipos de fuente (renovables, cogeneración, residuos) y tecnologías específicas**  
+  Evaluar cómo contribuye cada tipo de fuente y tecnología a la **energía total vendida** a lo largo de los años.
 
 - 🌍 **Desempeño energético por comunidades autónomas y tecnologías**  
-  Analizar la distribución, el crecimiento y la eficiencia de la energía vendida y la potencia instalada por comunidad y tecnología.
+  Analizar la **distribución, el crecimiento y la eficiencia** de la energía vendida y la potencia instalada por comunidad y tecnología.
 
 - 🔮 **Proyecciones futuras**  
   Estimar escenarios de energía vendida y potencia instalada por comunidad y tecnología, destacando regiones y fuentes con mayor potencial de crecimiento.
@@ -137,6 +137,7 @@ El dataset proviene de **CNMC Data** e incluye registros anuales de **energía v
 - **Jupyter Notebook + Python (pandas, matplotlib, seaborn,scikit-learn)**: Análisis y visualizaciones interactivas.  
 - **SQL (SQLite)**: Consultas para segmentar por comunidad, tecnología y año.  
 - **Power BI**: Creación de dashboards interactivos para KPIs, tendencias y comparaciones por región y tecnología.
+
 
 
 
