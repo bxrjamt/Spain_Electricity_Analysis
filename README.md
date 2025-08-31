@@ -38,25 +38,28 @@ Analizar cómo han cambiado año a año los valores de energía vendida y potenc
 - ¿Cuál ha sido la tendencia anual de la energía vendida para cada tecnología?
 - ¿Qué años registraron los picos más altos o las caídas más significativas en energía vendida para las fuentes de energía renovables?
 - ¿Qué fuente de energía renovable muestra mayor crecimiento o disminución en energía vendida en la última década?
+- ¿Qué tipo de fuente y qué tecnología han mantenido un aporte relativamente estable a la energía vendida en la última década?  
 - ¿Qué tecnologías muestran una estabilidad en potencia instalada en la última década?
 - ¿Qué comunidades autónomas han mostrado un crecimiento más constante en energía vendida en el último año?
 
 --------
 
-## 📊 Distribución por tecnologías de generación
-  Analizar la contribución de cada tecnología a la **energía total vendida** en cada año.
+## 📊 Distribución por tipo de fuente de energía
+Analizar la contribución de cada tipo de fuente (Renovable, No renovable) a la energía total vendida a nivel nacional y por comunidad.
 
-- ¿Qué porcentaje de la energía vendida representa cada tecnología por año?  
-- ¿En qué años las fuentes de energía renovables representaron menos del 50% de la energía total vendida?  
-- ¿Cuál ha sido la contribución acumulada de cada tecnología al total de energía vendida?  
+- ¿Qué porcentaje de la energía total vendida corresponde a renovables y no renovables por año?  
+- ¿Cómo se distribuye la energía vendida de fuentes renovables y no renovables entre las distintas comunidades?  
+- ¿Cuál tecnología contribuye más a cada tipo de fuente por año y comunidad?  
+- ¿Qué tecnologías representan menos del 50% de la energía vendida dentro de su tipo de fuente? ¿Y más del 75%?
 - ¿Qué tecnologías han mantenido estable su aporte a la energía vendida en la última década?  
 - ¿Qué tecnologías concentran la mayor parte de la energía vendida en comunidades específicas?  
-- ¿Qué tecnologías representan más del 75% de la energía total vendida en un año determinado?
+- ¿Existe alguna relación entre la energía vendida de distintas tecnologías dentro de la misma comunidad?  
+- ¿Se observan patrones geográficos en la distribución de tecnologías renovables o no renovables?  
 
 --------
 
 ## 🌍 Desempeño energético por comunidades autónomas y tecnologías
-Analizar distribución, crecimiento y eficiencia de la energía vendida y la potencia instalada por comunidad y tecnología.
+Analizar la distribución, el crecimiento y la eficiencia de la energía vendida y la potencia instalada por comunidad y tecnología.
 
 ### A. Distribución de energía
 - ¿Qué comunidades destacan por mayor potencia instalada en energía eólica?
@@ -137,6 +140,7 @@ El dataset proviene de **CNMC Data** e incluye registros anuales de **energía v
 - **Jupyter Notebook + Python (pandas, matplotlib, seaborn,scikit-learn)**: Análisis y visualizaciones interactivas.  
 - **SQL (SQLite)**: Consultas para segmentar por comunidad, tecnología y año.  
 - **Power BI**: Creación de dashboards interactivos para KPIs, tendencias y comparaciones por región y tecnología.
+
 
 
 
