@@ -9,21 +9,21 @@ Este proyecto realiza un **análisis exploratorio de los datos de la CNMC** sobr
 
 El análisis se centra en los siguientes objetivos que nos ayudarán a entender cómo se genera, distribuye y utiliza la energía en España:
 
-- 📈 **Tendencias temporales de la energía vendida y la potencia instalada**  
-Analizar cómo han cambiado año a año los valores de **energía vendida** y **potencia instalada**, identificando **tendencias y picos significativos**.
+1. 📈 **Tendencias temporales de la energía vendida y la potencia instalada**    
+   Analizar la evolución anual de la **energía vendida** y la **potencia instalada**, identificando **picos y variaciones significativas** a nivel nacional.
 
-- 📊 **Distribución por fuentes de energía**  
-Examinar la contribución de cada fuente de energía sobre la **energía total vendida**, así como su evolución temporal a lo largo de los años.
+2. 📊 **Distribución por fuentes de energía**    
+   Evaluar la contribución de cada fuente (renovables, cogeneración, residuos) sobre la **energía total vendida**, tanto a nivel nacional como por comunidad autónoma.
 
-- 🔍 **Detección de patrones y correlaciones**
-Identificar posibles relaciones entre energía vendida y potencia instalada según comunidad y tecnología.
+3. 🔍 **Detección de patrones y correlaciones**    
+   Explorar posibles relaciones entre **energía vendida** y **potencia instalada**, según comunidad y tecnología, usando análisis de correlación y visualizaciones comparativas.
 
-- 🌍 **Desempeño energético por comunidades autónomas y tecnologías**  
-Analizar distribución, crecimiento y eficiencia de la energía vendida y potencia instalada por comunidad y tecnología.
+4. 🌍 **Desempeño energético por comunidades autónomas y tecnologías**    
+   Analizar la **distribución, crecimiento y eficiencia** de la energía vendida y la potencia instalada por comunidad y tecnología.
 
-- 🔮 **Proyecciones futuras**  
-Estimar tendencias futuras en **energía vendida** y **potencia instalada** por comunidad y tecnología, destacando **regiones con mayor potencial de crecimiento**.
-
+5. 🔮 **Proyecciones futuras**    
+   Estimar escenarios futuros de **energía vendida** y **potencia instalada** por comunidad y tecnología, destacando **regiones y fuentes con mayor potencial de crecimiento**.
+   
 --------
 
 
@@ -61,7 +61,7 @@ Identificar posibles relaciones entre energía vendida y potencia instalada seg�
 - 🌍 **Desempeño energético por comunidades autónomas y tecnologías**
 Analizar distribución, crecimiento y eficiencia de la energía vendida y potencia instalada por comunidad y tecnología.
 
-### A. Comparación entre comunidades
+### A. Distribución entre comunidades
 - ¿Qué comunidades destacan por mayor potencia instalada en energía eólica?  
 - ¿Qué comunidades generan más energía vendida a partir de energía solar en relación con su potencia instalada?  
 - ¿Qué comunidades dependen más de cogeneración o residuos frente a otras tecnologías?  
@@ -80,8 +80,6 @@ Analizar distribución, crecimiento y eficiencia de la energía vendida y potenc
 - ¿Qué tecnologías tienen mayor rendimiento promedio considerando energía vendida vs potencia instalada en distintas regiones?  
 - ¿Qué tecnologías tienen una relación más equilibrada entre potencia instalada y energía vendida según la comunidad?  
 - ¿Existen tecnologías con potencia instalada subutilizada en algunas comunidades?  
-
-### D. Participación de tecnologías
 - ¿Qué tecnologías están presentes en todas las comunidades autónomas y cuáles solo en algunas?  
 - ¿Cuáles son las tres principales tecnologías por energía vendida en cada comunidad? 
 
@@ -160,6 +158,7 @@ El dataset proviene de **CNMC Data** e incluye registros anuales de **energía v
 - **Jupyter Notebook + Python (pandas, matplotlib, seaborn,scikit-learn)**: Análisis y visualizaciones interactivas.  
 - **SQL (SQLite)**: Consultas para segmentar por comunidad, tecnología y año.  
 - **Power BI**: Creación de dashboards interactivos para KPIs, tendencias y comparaciones por región y tecnología.
+
 
 
 
