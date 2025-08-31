@@ -40,7 +40,7 @@ Analizar cómo han cambiado año a año los valores de energía vendida y potenc
 - ¿Qué fuente de energía renovable muestra mayor crecimiento o disminución en energía vendida en la última década?
 - ¿Qué tipo de fuente y qué tecnología han mantenido un aporte relativamente estable a la energía vendida en la última década?  
 - ¿Qué tecnologías muestran una estabilidad en potencia instalada en la última década?
-- ¿Qué comunidades autónomas han mostrado un crecimiento más constante en energía vendida en el último año?
+- ¿Qué comunidades autónomas han mostrado un crecimiento más constante en potencia instalada en el último año?
 
 --------
 
@@ -140,6 +140,7 @@ El dataset proviene de **CNMC Data** e incluye registros anuales de **energía v
 - **Jupyter Notebook + Python (pandas, matplotlib, seaborn,scikit-learn)**: Análisis y visualizaciones interactivas.  
 - **SQL (SQLite)**: Consultas para segmentar por comunidad, tecnología y año.  
 - **Power BI**: Creación de dashboards interactivos para KPIs, tendencias y comparaciones por región y tecnología.
+
 
 
 
