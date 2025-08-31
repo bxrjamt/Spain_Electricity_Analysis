@@ -13,13 +13,13 @@ El análisis se centra en los siguientes objetivos que nos ayudarán a entender 
 Analizar cómo han cambiado año a año los valores de **energía vendida** y **potencia instalada** a nivel nacional, identificando **tendencias y picos significativos**.
 
 - 📊 **Distribución por fuentes de energía**  
-Estudiar la contribución de cada fuente de energía sobre la **energía total vendida**, así como su evolución temporal a lo largo de los años.
+Examinar la contribución de cada fuente de energía sobre la **energía total vendida**, así como su evolución temporal a lo largo de los años.
 
-- 🔍 **Patrones y correlaciones en la generación de energía**  
-Explorar posibles **relaciones entre regiones, tecnologías y periodos**, detectando **patrones recurrentes y tendencias comunes** entre comunidades.
+- 🔍 **Detección de patrones y correlaciones**
+Identificar posibles relaciones entre energía vendida y potencia instalada según comunidad y tecnología.
 
 - 🌍 **Desempeño energético por comunidades autónomas y tecnologías**
-Analizar la distribución, crecimiento y eficiencia de la energía vendida y la potencia instalada entre las distintas comunidades autónomas y tecnologías.
+Analizar distribución, crecimiento y eficiencia de la energía vendida y potencia instalada por comunidad y tecnología.
 
 - 🔮 **Proyecciones futuras**  
 Estimar tendencias futuras en **energía vendida** y **potencia instalada** por comunidad y tecnología, destacando **regiones con mayor potencial de crecimiento**.
@@ -49,14 +49,14 @@ Estudiar la contribución de cada fuente de energía sobre la **energía total v
 
 
 - 🔍 **Detección de patrones y correlaciones**
-Analizar posibles relaciones entre energía vendida y potencia instalada según comunidad y tecnología.
+Identificar posibles relaciones entre energía vendida y potencia instalada según comunidad y tecnología.
 
 - ¿Existe relación entre la potencia instalada y la energía vendida para cada tecnología en cada comunidad?  
 - ¿Qué tecnologías muestran una relación más fuerte entre potencia instalada y energía vendida?  
 - ¿Hay comunidades donde ciertas tecnologías generan energía de manera más eficiente (mayor energía vendida por MW instalado)?  
 - ¿Se observan patrones de dependencia entre tecnologías dentro de la misma comunidad?  
 - ¿Qué combinación de comunidad y tecnología presenta la mayor o menor correlación entre potencia instalada y energía vendida?
-- 
+  
 
 - 🌍 **Desempeño energético por comunidades autónomas y tecnologías**
 Analizar distribución, crecimiento y eficiencia de la energía vendida y potencia instalada por comunidad y tecnología.
@@ -160,6 +160,7 @@ El dataset proviene de **CNMC Data** e incluye registros anuales de **energía v
 - **Jupyter Notebook + Python (pandas, matplotlib, seaborn,scikit-learn)**: Análisis y visualizaciones interactivas.  
 - **SQL (SQLite)**: Consultas para segmentar por comunidad, tecnología y año.  
 - **Power BI**: Creación de dashboards interactivos para KPIs, tendencias y comparaciones por región y tecnología.
+
 
 
 
